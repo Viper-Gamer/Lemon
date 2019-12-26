@@ -10,7 +10,7 @@ How to use :-
 
 2.Run ssh by typing "sh ssh" and copy the link you get.   [NEW SESSION]
 
-3.Forward TCP comnections by typing "sh payload", choose a port of your own and the payload's name, it will take a little time to create and upload the payload with the specified port and name.
+3.Forward TCP connections by typing "sh payload", choose a port of your own and the payload's name, it will take a little time to create and upload the payload with the specified port and name.
 
 4.Type "sh Handler" and wait for the Handler to start, then type "set LPORT xxxx" Put your port instead of xxxx, and finally type "run"   [NEW SESSION]
 
