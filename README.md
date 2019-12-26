@@ -1,11 +1,13 @@
-.Requirements :-
+Requirements :-
 1. Metasploit-Framework
 2.git
 
 Installation :-
+
 1.Install git by typing "pkg install git"
 2.Download Lemon by typing "git clone https://github.com/Lemon-Hacking/Lemon
 3.Install it by executing "cd $HOME/Lemon && sh Install" without quotes.
+
 How to use :-
 
 1.Run php by typing "sh php"
