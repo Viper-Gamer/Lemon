@@ -15,4 +15,4 @@ How to use :-
 4.Type "sh Handler" and wait for the Handler to start, then type "set LPORT xxxx" Put your port instead of xxxx, and finally type "run"   [NEW SESSION]
 
 5.Now, put your payload's name after the link that you got after running "sh ssh" [For Example : lente.serveo.net/Name.apk] and send the link to the target Android, once the virus gets installed in the target device, you will see a meterpreter session opening, wait for a few seconds.
-  Now you can mess with the Android device using the commnands listed.
+  Type "?" and press enter. Now you can mess with the Android device using the commnands listed.
