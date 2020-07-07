@@ -1,8 +1,10 @@
 **Requirements :-**
 
-1.Metasploit-Framework
+1.Termux (https://play.google.com/store/apps/details?id=com.termux&hl=en_US)
 
-2.git
+2.Metasploit-Framework
+
+3.git
 
 **Installation :-**
 
