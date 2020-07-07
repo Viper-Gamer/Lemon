@@ -21,21 +21,21 @@ chmod +x Handler
 chmod +x persistence.sh
 cd
 clear
-echo Do you have Metasploit Installed? | lolcat
+echo Do you have Metasploit Installed? (yes/no) | lolcat
 read -p '>> ' ans
 if [ $ans = no ]
 then
-echo Do you want to install Metasploit? | lolcat
-read -p '>>' asw
-if [ $asw = yes ]
+echo This program needs metasploit so plz install it | lolcat && sleep1.0 termux-open-url https://youtu.be/8EKckLGDAuU
+if [ $ans = yes ]
 then
-echo Installing Metasploit.. | lolcat && pkg install unstable-repo && clear
-pkg install metasploit
+echo Do you want to start program now? (y/n) | lolcat
+read -p '>> ' ams
+if [ $ams = yes ]
+then
+Echo do it by your own
 fi
 fi
-
-
-
+fi
 
 
 
