@@ -9,6 +9,7 @@
 1.Install git by typing "pkg install git"
 
 2.Download Lemon by typing "git clone https://github.com/Viper-Gamer/Lemon
+
 3.Install it by executing "cd $HOME/Lemon && sh Install" without quotes.
 
 **How to use :-**
