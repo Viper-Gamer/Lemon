@@ -1,5 +1,0 @@
-sh php
-sleep 5
-sh ssh
-sleep 5.0
-sh payload
