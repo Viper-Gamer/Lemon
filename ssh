@@ -9,9 +9,9 @@ if [ $ans = yes ]
 then
 echo ‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡ | lolcat
 echo '[+] Successful, now your files are globally available :)' | lolcat
-ssh -o "ExitOnForwardFailure yes" -p 8022 -R 80:localhost:4545 serveo.net
+echo :::::: | lolcat & ssh -o "StrictHostKeyChecking=accept-new" -p 8022 -R 80:localhost:4545 serveo.net
 clear
-printf "\033[1;31m[-] Please make sure you are connected to the Internet :(\033[0m\n"
+printf "\033[1;31m[-] ::::::::(\033[0m\n"
 else
 printf "\033[1;31m[-] Exiting..\033[0m\n"
 fi
