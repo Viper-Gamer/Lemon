@@ -26,13 +26,14 @@ read -p '>> ' ans
 if [ $ans = no ]
 then
 echo This program needs metasploit so plz install it | lolcat && sleep1.0 termux-open-url https://youtu.be/8EKckLGDAuU
+else
 if [ $ans = yes ]
 then
 echo 'Do you want to start program now? (y/n)' | lolcat
 read -p '>> ' ams
 if [ $ams = yes ]
 then
-Echo do it by your own
+sh run
 fi
 fi
 fi
