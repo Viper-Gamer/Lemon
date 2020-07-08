@@ -37,7 +37,6 @@ while kill -0 $PID 2> /dev/null; do
 done
 clear && printf "Generated!!" | lolcat
 ssh -o "StrictHostKeyChecking=accept-new" -p 8022 -R $port:localhost:$port serveo.net
-clear
 sleep 7
 printf("\n\n\nOpen a new session and give command : 'sh Handler'")
 else
